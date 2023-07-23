@@ -168,9 +168,8 @@ button{
     
     
     /* ,  linear-gradient(90deg,  #e34373, #e74576, #FD6A9A) */
-    background-image: url("img/thirdPage.png");   
-    background-size: 100% 100%;
-    background-position: left; 
+    background-image: url("img/thirdPage.png");  
+    background-position: center; 
     padding-right: 100px;
 
 }
