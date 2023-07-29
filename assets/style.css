@@ -188,6 +188,10 @@ button{
 
 /* FOOTER */
 
+.footerMovile_extraNav {
+    display: none;
+}
+
 .footer_supportLogoMarca {
     height: 20vh;
     width: 100%;
@@ -224,7 +228,7 @@ button{
 }
 
 .footerNav {
-    height: 180px;
+    height: 200px;
     width: 250px;
 
 }
@@ -255,3 +259,118 @@ button{
     font-weight: 400;
     letter-spacing: 0.5px;
 }
+
+/* RESPONSIVIDADE */
+
+/* Tablets */
+@media (max-width: 1150px) {
+
+    .firstSection_page1{
+
+        background-image: url("img/mobile/firstPage_mobile.png");
+        background-size: cover;
+        height: 200vh;
+
+    }
+
+    .secondSection_page2{
+
+        background-image: url("img/mobile/secondPage_mobile.png");
+        background-position: right bottom;
+
+        justify-content: flex-start;
+        opacity: 1;
+
+        height: 200vh;
+        padding-top: 80px;
+        padding-left: 40px;
+
+    }
+
+    .thirdSection_page3 {
+
+        /* background-color: linear-gradient(300deg, #EB4A7B 0%, #FD6A9A 100%);
+        background-size: 100%; */
+
+        background-image: url("img/mobile/thirdPage_mobile.png");
+        background-size: cover;
+
+        height: 200vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        padding-top: 80px;
+        padding-left: 40px;
+
+    }
+
+    /* Footer Navegação de Social Medias */
+    .footerMobile_extraNav{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #EB4A7B;
+
+    }
+
+    .footerMobile_extraNav .logomarca {
+        margin: 0;
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .footerMobile_extraNav .logomarca .small_img {
+        width: 15vw;
+    }
+
+    .footerMobile_extraNav .logomarca .small_title {
+        font-size: 40px;
+    }
+
+    .footerMobile_extraNav .nav_socialMidias{
+        margin-left: 10vw;
+
+        width: 50vw;
+        height: 20vh;
+        justify-content: space-evenly;
+    }
+
+    .footerMobile_extraNav .nav_socialMidias .icon_socialMedia {
+        height: 40px;
+        
+    }
+
+    /* Footer - Navegação Informações Principais */
+    .section_footerNav {
+        height: 150vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footerNav {
+        height: 40vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 15vw;
+
+    }
+
+    .footerNav ul {
+        margin-top: 0;
+    }
+
+    .footerNav li {
+        text-align: center;
+    }
+
+    .footerNav a {
+        font-size: 22px;
+    }
+  
+}
+
